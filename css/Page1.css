@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@600&family=Playfair+Display+SC&display=swap');
+
+icon {
+  border-radius: 50%;
+}
+
+body {
+    background-image: linear-gradient(rgba(146, 108, 26, 0.195), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1576717585968-8ea8166b89b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+.header1 .site-heading-upper{
+    color: #958569;
+    font-family: 'Playfair Display Sc';
+    font-size: 65px;
+    background-color: #ffb6c1;
+    border-radius: 7px;
+    opacity: 85%;
+  }
+
+.header1 .site-heading-lower{
+  color: #ffb6c1;
+  font-family: 'Montserrat';
+  font-size:35px;
+  background-color: #958569;
+}
+
+.imgcentre1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: auto;
+}
+
+.begin {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav .nav-item{
+  background-color: rgb(235, 229, 218);
+  border-radius: 5px;
+  opacity: 85%;  
+}
+
+.nav .active{
+  color:black;
+  background-color: rgb(240, 202, 202);
+  border-radius: 10px;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+.nav .nav-link{
+  color:rgb(0, 0, 0);
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+@media (max-width: 576px) {
+    .site-heading-upper {
+      font-size: 40px;
+    }
+  
+    .site-heading-lower {
+      font-size: 25px;
+    }
+  
+    .imgcentre1 {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .begin {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .nav .nav-link {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nav .nav-item {
+      margin-bottom: 5px;
+    }
+
+    .imgcentre1 {
+        width: 100%;
+        max-width: 400px;
+      }
+  
+    .navbar-collapse {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding: 5px 10px;
+    }
+
+    .imgcentre1 {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }
+
+  .footer{
+    color: aliceblue;
+  }
